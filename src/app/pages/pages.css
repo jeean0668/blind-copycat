@@ -1,0 +1,22 @@
+
+.first-page {
+    height: 100vh;
+    width : 60%;
+    border: 1px solid lightgrey;
+    margin : 0 auto;
+    display: flex;
+}
+
+.first-page.column.left {
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-top : 10px;
+    flex : 70%;
+    float : left;
+    display: flex;
+    justify-content: center;
+}
+.first-page.column.right {
+    flex : 30%;
+    float : right;
+}
